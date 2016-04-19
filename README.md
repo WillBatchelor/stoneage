@@ -1,3 +1,4 @@
 # stoneage
 
-This is an experimental mod by Paul and Will Batchelor. 
+This is an experimental mod by Paul and Will Batchelor.
+More will be added later. 
