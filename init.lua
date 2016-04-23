@@ -1,6 +1,6 @@
 minetest.register_craftitem("stoneage:flint", {
 	description = "Flint",
-	inventory_image = "flint.png"
+	inventory_image = "stoneage_flint.png"
 })
 
 
