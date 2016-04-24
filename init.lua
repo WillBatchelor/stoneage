@@ -1,3 +1,6 @@
+stoneage = {} 
+stoneage.path = minetest.get_modpath("stoneage")
+
 minetest.register_craftitem("stoneage:flint", {
 	description = "Flint",
 	inventory_image = "stoneage_flint.png"
