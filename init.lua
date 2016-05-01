@@ -64,6 +64,16 @@ minetest.register_craft({
     recipe = "stoneage:sap",
 })
 
+minetest.register_craft({
+	output = 'stoneage:fletch 3', 
+	recipe = {
+		{'stoneage:resin'}, 
+		{'stoneage:cotton_sheet'}, 
+	} 
+
+})
+
+
 minetest.override_item("default:gravel", {drop = {
 	max_items = 1,
 	items = {
