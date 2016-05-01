@@ -73,6 +73,16 @@ minetest.register_craft({
 
 })
 
+minetest.register_craft({
+	output = 'stoneage:arrow 4',
+	recipe = {
+		{'stoneage:flint'},
+		{'default:stick'},
+		{'stoneage:fletch 3'},
+	}
+
+})
+
 
 minetest.override_item("default:gravel", {drop = {
 	max_items = 1,
