@@ -47,6 +47,16 @@ minetest.register_craftitem("stoneage:flint_and_steel", {
 
 })
 
+minetest.register_craft({
+        output = 'stoneage:cotton_sheet',
+        recipe = {
+            {'farming:cotton'},
+            {'farming:cotton'},
+            {'farming:cotton'},
+        }
+
+})
+
 
 minetest.override_item("default:gravel", {drop = {
 	max_items = 1,
