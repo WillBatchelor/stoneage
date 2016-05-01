@@ -57,6 +57,12 @@ minetest.register_craft({
 
 })
 
+minetest.register_craft({
+    type = "cooking",
+    cooktime = 10,
+    output = "stoneage:resin",
+    recipe = "stoneage:sap",
+})
 
 minetest.override_item("default:gravel", {drop = {
 	max_items = 1,
