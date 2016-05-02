@@ -83,6 +83,14 @@ minetest.register_craft({
 
 })
 
+minetest.register_craft({
+	output = 'stoneage:flint_and_steel',
+	recipe = {
+		{'default:steel_ingot', 'stoneage:flint'},
+	}
+
+})
+
 
 minetest.override_item("default:gravel", {drop = {
 	max_items = 1,
