@@ -106,6 +106,36 @@ minetest.register_craft({
 
 })
 
+minetest.register_craft({
+        output = 'stoneage:bow',
+        recipe = {
+            {'farming:cotton', 'group:stick', ''},
+            {'farming:cotton', '', 'group:stick'},
+            {'farming:cotton', 'group:stick', ''},
+        }
+
+})
+
+minetest.register_craft({
+        output = 'stoneage:boomerang',
+        recipe = {
+            {'', 'group:stick', ''},
+            {'', '', 'group:stick'},
+            {'', 'group:stick', ''},
+        }
+
+})
+
+minetest.register_craft({
+        output = 'stoneage:minecart',
+        recipe = {
+            {'', '', ''},
+            {'default:steel_ingot', '', 'default:steel_ingot'},
+            {'default:steel_ingot', 'default:steel_ingot', 'default:steel_ingot'},
+        }
+
+})
+
 
 minetest.override_item("default:gravel", {drop = {
 	max_items = 1,
