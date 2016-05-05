@@ -40,6 +40,11 @@ minetest.register_craftitem("stoneage:arrow", {
 
 })
 
+minetest.register_craftitem("stoneage:bow", {
+     description = "Bow",
+     inventory_image = "stoneage_bow.png",
+})
+
 
 minetest.register_craftitem("stoneage:flint_and_steel", {
     description = "Flint and Steel",
