@@ -136,6 +136,12 @@ minetest.register_craft({
 
 })
 
+minetest.register_craft({
+	output = 'farming:string',
+	recipe = {
+		{'default:gold_ingot', 'default:gold_ingot', 'default:gold_ingot'},
+	}
+})
 
 minetest.override_item("default:gravel", {drop = {
 	max_items = 1,
