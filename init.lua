@@ -80,7 +80,7 @@ minetest.register_craft({
 })
 
 minetest.register_craft({
-	output = 'stoneage:fletch 3', 
+	output = 'stoneage:fletch', 
 	recipe = {
 		{'stoneage:resin'}, 
 		{'stoneage:cotton_sheet'}, 
