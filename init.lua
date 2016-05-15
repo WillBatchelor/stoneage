@@ -150,3 +150,11 @@ minetest.override_item("default:gravel", {drop = {
 		{items = {'default:gravel'}},
 	}
 }})
+
+minetest.override_item("default:tree", {drop = {
+	max_items = 1,
+	items = {
+		{items = {'stoneage:sap', 'default:tree'},rarity = 12.5},
+		{items = {'default:tree'}},
+	}
+}})	
