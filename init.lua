@@ -146,7 +146,7 @@ minetest.register_craft({
 minetest.override_item("default:gravel", {drop = {
 	max_items = 1,
 	items = {
-		{items = {'stoneage:flint'},rarity = 10},
+		{items = {'stoneage:flint', 'default:gravel'},rarity = 10},
 		{items = {'default:gravel'}},
 	}
 }})
