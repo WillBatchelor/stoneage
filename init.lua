@@ -68,6 +68,12 @@ minetest.register_craftitem("stoneage:polished_stick", {
 
 })
 
+minetest.register_craftitem("stoneage:ruby", {
+	description = "Ruby",
+	inventory_image = "stoneage_ruby.png",
+
+})
+
 minetest.register_craft({
         output = 'stoneage:cotton_sheet',
         recipe = {
@@ -134,9 +140,9 @@ minetest.register_craft({
 minetest.register_craft({
         output = 'stoneage:boomerang',
         recipe = {
-            {'', 'group:stick', ''},
-            {'', '', 'group:stick'},
-            {'', 'group:stick', ''},
+            {'', 'stoneage:polished_stick', ''},
+            {'', 'stoneage:ruby', 'stoneage:polished_stick'},
+            {'', 'stoneage:polished_stick', ''},
         }
 
 })
@@ -157,6 +163,8 @@ minetest.register_craft({
 		{'default:gold_ingot', 'default:gold_ingot', 'default:gold_ingot'},
 	}
 })
+
+
 
 minetest.override_item("default:gravel", {drop = {
 	max_items = 1,
