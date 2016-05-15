@@ -62,6 +62,12 @@ minetest.register_craftitem("stoneage:flint_and_steel", {
 
 })
 
+minetest.register_craftitem("stoneage:polished_stick", {
+	description = "Polished Stick",
+	inventory_image = "stoneage_polished_stick.png",
+
+})
+
 minetest.register_craft({
         output = 'stoneage:cotton_sheet',
         recipe = {
@@ -69,6 +75,15 @@ minetest.register_craft({
             {'farming:cotton'},
             {'farming:cotton'},
         }
+
+})
+
+minetest.register_craft({
+	output = 'stoneage:polished_stick',
+	recipe = {
+		{'stoneage:resin'},
+		{'group:stick'},
+	}
 
 })
 
