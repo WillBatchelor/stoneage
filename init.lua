@@ -84,12 +84,12 @@ minetest.register_craft({
 
 })
 
+
 minetest.register_craft({
---	type = "shapeless",
 	output = 'stoneage:polished_stick',
 	recipe = {
-		{'stoneage:resin', 'stoneage:resin', 'stoneage:resin'},
-		{'group:stick'},
+		{'', 'stoneage:resin', ''},
+		{'stoneage:resin', 'group:stick', 'stoneage:resin'},
 	}
 
 })
