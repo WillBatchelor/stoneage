@@ -202,6 +202,158 @@ minetest.register_craft({
 	}
 })
 
+minetest.register_craft({
+        output = 'stoneage:rubyblock',
+        recipe = {
+            {'stoneage:ruby', 'stoneage:ruby', 'stoneage:ruby'},
+            {'stoneage:ruby', 'stoneage:ruby', 'stoneage:ruby'},
+            {'stoneage:ruby', 'stoneage:ruby', 'stoneage:ruby'},
+        }
+
+})
+
+minetest.register_craft({
+        output = 'stoneage:ruby 9',
+        recipe = {
+            {'stoneage:rubyblock'},
+        }
+
+})
+
+minetest.register_craft({
+        output = 'stoneage:sapphireblock',
+        recipe = {
+            {'stoneage:sapphire', 'stoneage:sapphire', 'stoneage:sapphire'},
+            {'stoneage:sapphire', 'stoneage:sapphire', 'stoneage:sapphire'},
+            {'stoneage:sapphire', 'stoneage:sapphire', 'stoneage:sapphire'},
+        }
+
+})
+
+minetest.register_craft({
+        output = 'stoneage:sapphire 9',
+        recipe = {
+            {'stoneage:sapphireblock'},
+        }
+
+})
+
+minetest.register_craft({
+        output = 'stoneage:emeraldblock',
+        recipe = {
+            {'stoneage:emerald', 'stoneage:emerald', 'stoneage:emerald'},
+            {'stoneage:emerald', 'stoneage:emerald', 'stoneage:emerald'},
+            {'stoneage:emerald', 'stoneage:emerald', 'stoneage:emerald'},
+        }
+
+})
+
+minetest.register_craft({
+        output = 'stoneage:emerald 9',
+        recipe = {
+            {'stoneage:emeraldblock'},
+        }
+
+})
+
+minetest.register_craft({
+        output = 'stoneage:staff_of_magic',
+        recipe = {
+            {'default:diamond'},
+            {'stoneage:polished_stick'},
+            {'stoneage:polished_stick'},
+        }
+
+})
+
+minetest.register_craft({
+        output = 'stoneage:staff_of_fire',
+        recipe = {
+            {'stoneage:ruby'},
+            {'stoneage:polished_stick'},
+            {'stoneage:polished_stick'},
+        }
+
+})
+
+minetest.register_craft({
+        output = 'stoneage:staff_of_ice',
+        recipe = {
+            {'stoneage:sapphire'},
+            {'stoneage:polished_stick'},
+            {'stoneage:polished_stick'},
+        }
+
+})
+
+minetest.register_craft({
+        output = 'stoneage:staff_of_air',
+        recipe = {
+            {'stoneage:emerald'},
+            {'stoneage:polished_stick'},
+            {'stoneage:polished_stick'},
+        }
+
+})
+
+minetest.register_craft({
+        output = 'stoneage:staff_of_lightning',
+        recipe = {
+            {'default:mese_crystal'},
+            {'stoneage:polished_stick'},
+            {'stoneage:polished_stick'},
+        }
+
+})
+
+
+minetest.register_node("stoneage:stone_with_ruby", {
+    description = "Ruby Ore",
+    tiles = {"default_stone.png^stoneage_mineral_ruby.png"},
+    groups = {cracky=1},
+    drop = 'stoneage:ruby',
+    sounds = default.node_sound_stone_defaults(),
+})
+
+
+minetest.register_node("stoneage:rubyblock", { 
+	description = "Ruby Block", 
+	tiles = {"stoneage_ruby_block.png"}, 
+	is_ground_content = false, 
+	groups = {cracky = 1, level = 3}, 
+	sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("stoneage:stone_with_sapphire", {
+    description = "Sapphire Ore",
+    tiles = {"default_stone.png^stoneage_mineral_sapphire.png"},
+    groups = {cracky=1},
+    drop = 'stoneage:sapphire',
+    sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("stoneage:sapphireblock", {
+     description ="Sapphire Block",tiles = {"stoneage_sapphire_block.png"},
+     is_ground_content = false,
+     groups = {cracky =1, level =3},
+     sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("stoneage:stone_with_emerald", {
+    description = "Emerald Ore",
+    tiles = {"default_stone.png^stoneage_mineral_emerald.png"},
+    groups = {cracky=1},
+    drop = 'stoneage:emerald',
+    sounds = default.node_sound_stone_defaults(),
+})
+
+minetest.register_node("stoneage:emeraldblock", {
+	description ="Emerald Block",
+	tiles = {"stoneage_emerald_block.png"},
+	is_ground_content =false,
+	groups = {cracky =1, level =3},
+	sounds = default.node_sound_stone_defaults(),
+})
 
 
 minetest.override_item("default:gravel", {drop = {
