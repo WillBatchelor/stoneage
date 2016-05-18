@@ -74,6 +74,43 @@ minetest.register_craftitem("stoneage:ruby", {
 
 })
 
+minetest.register_craftitem("stoneage:sapphire", {
+	description = "Sapphire",
+	inventory_image = "stoneage_sapphire.png",
+
+})
+
+minetest.register_craftitem("stoneage:emerald", {
+     description = "Emerald",
+     inventory_image = "stoneage_emerald.png",
+})
+
+minetest.register_craftitem("stoneage:staff_of_magic", {
+     description = "Staff of Magic",
+     inventory_image = "stoneage_staff_of_magic.png",
+})
+
+minetest.register_craftitem("stoneage:staff_of_fire", {
+     description = "Staff of Fire",
+     inventory_image = "stoneage_staff_of_fire.png",
+})
+
+minetest.register_craftitem("stoneage:staff_of_ice", {
+     description = "Staff of Ice",
+     inventory_image = "stoneage_staff_of_ice.png",
+})
+
+minetest.register_craftitem("stoneage:staff_of_air", {
+     description = "Staff of Air",
+     inventory_image = "stoneage_staff_of_air.png",
+})
+
+minetest.register_craftitem("stoneage:staff_of_lightning", {
+     description = "Staff of Lightning",
+     inventory_image = "stoneage_staff_of_lightning.png",
+})
+
+
 minetest.register_craft({
         output = 'stoneage:cotton_sheet',
         recipe = {
